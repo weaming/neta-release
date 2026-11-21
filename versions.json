@@ -1,0 +1,441 @@
+{
+  "baseUrl": "https://dl.bitsflow.org/Neta-L/versions",
+  "displayMinVersion": "0.2.12",
+  "releases": [
+    {
+      "fallbackUrl": "https://github.com/weaming/neta-release/releases/download/v0.2.19/neta-l-control-v0.2.19.apk",
+      "file": "neta-l-control-v0.2.19.apk",
+      "notes": [
+        "- 应用更新优先直连 Bitsflow，连接超时 3 秒自动切换 GitHub",
+        "- 安装包通过独立公开仓库发布，提供 SHA256 校验文件"
+      ],
+      "releasedAt": "2026-11-21",
+      "sha256": "277a80bae2f453552f447dfa1b761199bcfb9d70c573ff290060312c93cabab9",
+      "sizeBytes": 4439338,
+      "versionCode": 40,
+      "versionName": "0.2.19"
+    },
+    {
+      "file": "neta-l-control-v0.2.18.apk",
+      "notes": [
+        "- 修复通知栏解锁误报失败的问题"
+      ],
+      "releasedAt": "2026-11-16",
+      "sha256": "2ce006c81b5abebeeb45a29cffb0dd7ba4d5efd7b7499fc7c3143cfc8411430f",
+      "sizeBytes": 4438083,
+      "versionCode": 39,
+      "versionName": "0.2.18"
+    },
+    {
+      "file": "neta-l-control-v0.2.17.apk",
+      "notes": [
+        "- 日志上传网络小优化",
+        "- 摄氏度显示统一使用 °C"
+      ],
+      "releasedAt": "2026-11-16",
+      "sha256": "a459f29c20ef77169fddcd0d4ff09b932139f2b793147eaf1f0bcbf06bd54f47",
+      "sizeBytes": 4438763,
+      "versionCode": 38,
+      "versionName": "0.2.17"
+    },
+    {
+      "file": "neta-l-control-v0.2.16.apk",
+      "notes": [
+        "- 优化蓝牙，需测试"
+      ],
+      "releasedAt": "2026-11-13",
+      "sha256": "72899e8b424dca7b09140a8f2cb45249dd62fdae66e42c0caab9243aa6a405b5",
+      "sizeBytes": 4159395,
+      "versionCode": 37,
+      "versionName": "0.2.16"
+    },
+    {
+      "file": "neta-l-control-v0.2.15.apk",
+      "notes": [
+        "- 修复普通模式后台蓝牙扫描与锁屏唤醒"
+      ],
+      "releasedAt": "2026-11-12",
+      "sha256": "8a015f37054eb1361b883617abf7bb39288b07106103ed948060e2249731c423",
+      "sizeBytes": 4152793,
+      "versionCode": 36,
+      "versionName": "0.2.15"
+    },
+    {
+      "file": "neta-l-control-v0.2.14.apk",
+      "notes": [
+        "- 激进模式更激进",
+        "- 近期发现车辆后保持短时快速重连"
+      ],
+      "releasedAt": "2026-11-07",
+      "sha256": "acda10eb2652ce79f7dd0cc98e80896372c22465c6337f8ba9eb6fc0f954c4b3",
+      "sizeBytes": 4151127,
+      "versionCode": 35,
+      "versionName": "0.2.14"
+    },
+    {
+      "file": "neta-l-control-v0.2.13.apk",
+      "notes": [
+        "- 优化蓝牙连接",
+        "- 支持安卓手表"
+      ],
+      "releasedAt": "2026-11-06",
+      "sha256": "072409258f75637e97e6ec101e45f2fb6b9fb65fa03494c99d60975bd30907c3",
+      "sizeBytes": 4151519,
+      "versionCode": 34,
+      "versionName": "0.2.13"
+    },
+    {
+      "file": "neta-l-control-v0.2.12.apk",
+      "notes": [
+        "- 软件更新、日志上传网络优化"
+      ],
+      "releasedAt": "2026-11-02",
+      "sha256": "025c4506860a32ec2f696c668cf3e94a7b232c2ccfd0bb66a653c8689ab1bef2",
+      "sizeBytes": 4133456,
+      "versionCode": 33,
+      "versionName": "0.2.12"
+    },
+    {
+      "file": "neta-l-control-v0.2.11.apk",
+      "notes": [
+        "- 解锁机制大更新"
+      ],
+      "releasedAt": "2026-10-29",
+      "sha256": "0d979a15bcc5d145d7721a62c2218b9d0c18560588706539910a59f039da4b44",
+      "sizeBytes": 2017473,
+      "versionCode": 32,
+      "versionName": "0.2.11"
+    },
+    {
+      "file": "neta-l-control-v0.2.10.apk",
+      "notes": [
+        "- 优化解锁"
+      ],
+      "releasedAt": "2026-10-29",
+      "sha256": "0287446ef729fe3f48771dfce23659abf95cccb2a72d0e8cc506b3eed6cd3b89",
+      "sizeBytes": 2017476,
+      "versionCode": 31,
+      "versionName": "0.2.10"
+    },
+    {
+      "file": "neta-l-control-v0.2.9.apk",
+      "notes": [
+        "- 自动清理历史更新文件",
+        "- 显示更新历史"
+      ],
+      "releasedAt": "2026-10-28",
+      "sha256": "968432339efbf0e6ea8e2ad6956fd927bdd2eaf9faf4526cbfc0fc6244afbfb6",
+      "sizeBytes": 2017465,
+      "versionCode": 30,
+      "versionName": "0.2.9"
+    },
+    {
+      "file": "neta-l-control-v0.2.8.apk",
+      "notes": [
+        "- 新增支持从最近任务隐藏",
+        "- 修复位置上报"
+      ],
+      "releasedAt": "2026-10-28",
+      "sha256": "9888dc7b3b816cc8486b2eebdc6caf2bb4c670ae7383145bd213cc767a342d87",
+      "sizeBytes": 2001085,
+      "versionCode": 29,
+      "versionName": "0.2.8"
+    },
+    {
+      "file": "neta-l-control-v0.2.7.apk",
+      "notes": [
+        "- 优化解锁"
+      ],
+      "releasedAt": "2026-10-27",
+      "sha256": "341614b3d1bf44fa5ab539e91805534ff4edc48a7684430526ef2c1f4f184830",
+      "sizeBytes": 2001074,
+      "versionCode": 28,
+      "versionName": "0.2.7"
+    },
+    {
+      "file": "neta-l-control-v0.2.6.apk",
+      "notes": [
+        "- 优化解锁",
+        "- 修复天窗状态"
+      ],
+      "releasedAt": "2026-10-26",
+      "sha256": "41390a93900dbdf368b5b8194b7390ef9dd3f07f13493da7a3285e717a676d06",
+      "sizeBytes": 2001075,
+      "versionCode": 27,
+      "versionName": "0.2.6"
+    },
+    {
+      "file": "neta-l-control-v0.2.5.apk",
+      "notes": [
+        "- 车控页左上角动态车型",
+        "- 优化蓝牙扫描，自动解锁"
+      ],
+      "releasedAt": "2026-10-26",
+      "sha256": "97e1f1fd88e0f7f9194ff0da372a1270944bb29c747a29c64720fe530ce3919f",
+      "sizeBytes": 2001090,
+      "versionCode": 26,
+      "versionName": "0.2.5"
+    },
+    {
+      "file": "neta-l-control-v0.2.4.apk",
+      "notes": [
+        "- 修补位置上报问题"
+      ],
+      "releasedAt": "2026-10-26",
+      "sha256": "9c1fd48ce9f00c29475650dd24cdab0faa6fc44119c2332a9a1b5a162ca2d592",
+      "sizeBytes": 2001086,
+      "versionCode": 25,
+      "versionName": "0.2.4"
+    },
+    {
+      "file": "neta-l-control-v0.2.3.apk",
+      "notes": [
+        "- 新增可选的「上报车辆位置」"
+      ],
+      "releasedAt": "2026-10-25",
+      "sha256": "6149df226c27fed082c3f799d34ebb628efaff47a356a0b7967bd36f95364035",
+      "sizeBytes": 2001089,
+      "versionCode": 24,
+      "versionName": "0.2.3"
+    },
+    {
+      "file": "neta-l-control-v0.2.1.apk",
+      "notes": [
+        "- 一些优化"
+      ],
+      "releasedAt": "2026-10-25",
+      "sha256": "739da6cc279df9447b1f8be93cf102ee984e3492b813db0555ce7f3c3bffee13",
+      "sizeBytes": 1984700,
+      "versionCode": 22,
+      "versionName": "0.2.1"
+    },
+    {
+      "file": "neta-l-control-v0.2.0.apk",
+      "notes": [
+        "- 简化蓝牙扫描条件，不再依赖定位"
+      ],
+      "releasedAt": "2026-10-25",
+      "sha256": "8c4913f900bea6a07beae2f4dd7d7bd119958a761a9463641bcdbc9332312ba5",
+      "sizeBytes": 2001086,
+      "versionCode": 21,
+      "versionName": "0.2.0"
+    },
+    {
+      "file": "neta-l-control-v0.1.19.apk",
+      "notes": [
+        "- UI优化"
+      ],
+      "releasedAt": "2026-10-24",
+      "sha256": "2ac68ef96a5ee3952dfe9524513fe6fa578ff23949dccd36e4774696ee57a9e2",
+      "sizeBytes": 2001130,
+      "versionCode": 20,
+      "versionName": "0.1.19"
+    },
+    {
+      "file": "neta-l-control-v0.1.18.apk",
+      "notes": [
+        "- 新增「充电预约」",
+        "- 一些优化"
+      ],
+      "releasedAt": "2026-10-23",
+      "sha256": "4a7c950d067fd858a82619377a588bd0944da4503d68741c6882d1cb0d86a22f",
+      "sizeBytes": 2001083,
+      "versionCode": 19,
+      "versionName": "0.1.18"
+    },
+    {
+      "file": "neta-l-control-v0.1.17.apk",
+      "notes": [
+        "- 车锁状态修复"
+      ],
+      "releasedAt": "2026-10-22",
+      "sha256": "982cd06aa4a6e3c88428ac0bad3c3a1ff2704d06cd6d859ea304e83c11fb0d94",
+      "sizeBytes": 1968321,
+      "versionCode": 18,
+      "versionName": "0.1.17"
+    },
+    {
+      "file": "neta-l-control-v0.1.16.apk",
+      "notes": [
+        "- 一些优化"
+      ],
+      "releasedAt": "2026-10-22",
+      "sha256": "8b11489f080856cafafdfe530f4a41e853462f14b4e7b48a52ff0d5a077829c1",
+      "sizeBytes": 1968323,
+      "versionCode": 17,
+      "versionName": "0.1.16"
+    },
+    {
+      "file": "neta-l-control-v0.1.15.apk",
+      "notes": [
+        "- 新增「空调预约」"
+      ],
+      "releasedAt": "2026-10-22",
+      "sha256": "c23539980216a2a3308c2a9e31d942d27bf70771621888b3301fb31b82d14556",
+      "sizeBytes": 1968325,
+      "versionCode": 16,
+      "versionName": "0.1.15"
+    },
+    {
+      "file": "neta-l-control-v0.1.14.apk",
+      "notes": [
+        "- 连接时强制开启常驻后台",
+        "- 蓝牙连着时「常驻后台」不可关闭，断开后恢复可拨",
+        "- 未布防时不主动重连蓝牙，更符合「防反复解锁」预期",
+        "- 「仅蓝牙」下空调等只支持网络的动作如实拒发，不再误报「未登录」",
+        "- 修复可能的解锁风暴"
+      ],
+      "releasedAt": "2026-10-21",
+      "sha256": "bf5f481bea59e2d040a7d7677570eadba6a47ae85717967f1ace77f784134960",
+      "sizeBytes": 1935544,
+      "versionCode": 15,
+      "versionName": "0.1.14"
+    },
+    {
+      "file": "neta-l-control-v0.1.13.apk",
+      "notes": [
+        "- 大幅重写",
+        "- 修复其他地方登录后，无法连接蓝牙，现在会提示重新登录",
+        "- 修复锁屏状态，蓝牙会断联导致的车开不了(需测试)"
+      ],
+      "releasedAt": "2026-10-21",
+      "sha256": "ef48281200a7acfb31df068f1b9a1efd1b7186f38ed206d44e5390545c1c514a",
+      "sizeBytes": 1919138,
+      "versionCode": 14,
+      "versionName": "0.1.13"
+    },
+    {
+      "file": "neta-l-control-v0.1.12.apk",
+      "notes": [
+        "- 优化后台开启前授权",
+        "- 修复冻结误判",
+        "- 支持上传日志"
+      ],
+      "releasedAt": "2026-10-20",
+      "sha256": "c0884448c0b15f798db2a018f3d076afbf7b4f52a6d0dc1247204ff1fc16fbdd",
+      "sizeBytes": 1919147,
+      "versionCode": 13,
+      "versionName": "0.1.12"
+    },
+    {
+      "file": "neta-l-control-v0.1.11.apk",
+      "notes": [
+        "- 锁屏1小时后跳过后台蓝牙扫描，直到下次解锁",
+        "- 手机静止10分钟停止蓝牙扫描"
+      ],
+      "releasedAt": "2026-10-20",
+      "sha256": "e2841c34111f22964b9464ede9b492853bfad865d460c3aa2c670954ae758155",
+      "sizeBytes": 1902754,
+      "versionCode": 12,
+      "versionName": "0.1.11"
+    },
+    {
+      "file": "neta-l-control-v0.1.10.apk",
+      "notes": [
+        "- 修复通知栏按钮状态同步",
+        "- UI优化"
+      ],
+      "releasedAt": "2026-10-19",
+      "sha256": "288902e56ab5afa8acb3b1863e8d0b1a1ba0b0d8fc9cc4e2fda7697d37119513",
+      "sizeBytes": 1902733,
+      "versionCode": 11,
+      "versionName": "0.1.10"
+    },
+    {
+      "file": "neta-l-control-v0.1.9.apk",
+      "notes": [
+        "- 修复车机和网络状态推送合并",
+        "- 修复布防状态在解锁成功前就触发了"
+      ],
+      "releasedAt": "2026-10-19",
+      "sha256": "a05a764feeb245b1d798c03553a0fd29c8573f4e7b7295cc9016930975699872",
+      "sizeBytes": 1897284,
+      "versionCode": 10,
+      "versionName": "0.1.9"
+    },
+    {
+      "file": "neta-l-control-v0.1.8.apk",
+      "notes": [
+        "- 有常驻进程时，息屏也可自动解锁",
+        "- 有常驻进程时，亮屏触发蓝牙扫描",
+        "- 显示驻车、行驶状态，充电中数据(未测试)",
+        "- 其他优化"
+      ],
+      "releasedAt": "2026-10-19",
+      "sha256": "3d1aa640be98c6f43d1970cfda4b3a9bd49ba146e8dddd443040dc45ebc7ccab",
+      "sizeBytes": 1880901,
+      "versionCode": 9,
+      "versionName": "0.1.8"
+    },
+    {
+      "file": "neta-l-control-v0.1.7.apk",
+      "notes": [
+        "### 蓝牙车况",
+        "- 车端蓝牙报文 12 类字段全部解析",
+        "- 手机没网也能看到电量、续航、门锁、门窗与胎压",
+        "- 下拉刷新时走蓝牙向车端要一次全量车况",
+        "- 既没网也没连蓝牙时，仍显示最后一次看到的状态",
+        "- 车机已自行解锁时不再重复下发解锁指令",
+        "- 新增开关：「采纳车端车况」默认开，「写日志文件」默认开，「防反复解锁」",
+        "- 蓝牙稳定性优化",
+        "### 诊断",
+        "- 可一键导出日志文件",
+        "- 日志文件上限 1 MB"
+      ],
+      "releasedAt": "2026-10-19",
+      "sha256": "2fd2a52dfa9c5e9b9369704cd420147d3e1b54d287214605bb16fa28bfd71d91",
+      "sizeBytes": 1713560,
+      "versionCode": 8,
+      "versionName": "0.1.7"
+    },
+    {
+      "file": "neta-l-control-v0.1.6.apk",
+      "notes": [
+        "- 修复蓝牙连续扫描失败后，点击重试被拦截"
+      ],
+      "releasedAt": "2026-10-18",
+      "sha256": "415d0c2a86345e8ce09e8c35851adabf80ebce162060acb52c98bef560a02fad",
+      "sizeBytes": 1664358,
+      "versionCode": 7,
+      "versionName": "0.1.6"
+    },
+    {
+      "file": "neta-l-control-v0.1.5.apk",
+      "notes": [
+        "### 新功能",
+        "- 新增「实时照片」页",
+        "- 应用内升级：自动检查新版本，连续点击3次检查新版本"
+      ],
+      "releasedAt": "2026-10-18",
+      "sha256": "343fbe514b3ed5f7329e49ba9a7c2ca855e680a4f41db3dda2ea9270c8c6a088",
+      "sizeBytes": 1664361,
+      "versionCode": 6,
+      "versionName": "0.1.5"
+    },
+    {
+      "file": "neta-l-control-v0.1.4.zip",
+      "notes": [
+        "### 座舱页重做",
+        "- 一键模式「清凉 / 温暖」",
+        "- 优化空调卡片",
+        "- 优化座椅卡片",
+        "### 首页",
+        "- 车控按钮在命令受理后立即翻转",
+        "- 修复胎压警告UI布局重叠",
+        "- 显示车辆离当前位置多远",
+        "- 前台每 30 秒自动刷新车况，切到后台停止",
+        "### 修复",
+        "- 修复胎压计算",
+        "### 可靠性",
+        "- 修复并发竞态和几处崩溃风险",
+        "- 后台只在车附近才扫描蓝牙，减少远处空扫的耗电"
+      ],
+      "releasedAt": "2026-10-18",
+      "sha256": "89066429866b2e1db6d8bffd76d2875604461be45252a89999c381138c4cbfbf",
+      "sizeBytes": 1425994,
+      "versionCode": 5,
+      "versionName": "0.1.4"
+    }
+  ],
+  "schema": 1
+}
