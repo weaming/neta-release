@@ -1,19 +1,18 @@
 {
   "baseUrl": "https://dl.bitsflow.org/Neta-L/versions",
   "displayMinVersion": "0.2.12",
-  "fallbackRepo": "weaming/neta-release",
+  "githubRepo": "weaming/neta-release",
   "releases": [
     {
-      "fallbackPath": "v0.2.19/neta-l-control-v0.2.19.apk",
-      "fallbackUrl": "https://github.com/weaming/neta-release/releases/download/v0.2.19/neta-l-control-v0.2.19.apk",
       "file": "neta-l-control-v0.2.19.apk",
+      "githubAssetPath": "v0.2.19/neta-l-control-v0.2.19.apk",
       "notes": [
         "- 应用更新优先直连 Bitsflow，连接超时 3 秒自动切换 GitHub",
         "- 安装包通过独立公开仓库发布，提供 SHA256 校验文件"
       ],
       "releasedAt": "2026-11-21",
-      "sha256": "06a37d2eb7b53162c875d2c2e2cc263b301a3f76a63f41f92de8816536717270",
-      "sizeBytes": 4439659,
+      "sha256": "9882db0b02c02be626e9eabf03e59bc51eb3400ed8a97055c96ece1b89140102",
+      "sizeBytes": 4439767,
       "versionCode": 40,
       "versionName": "0.2.19"
     },
