@@ -4,6 +4,21 @@
   "githubRepo": "weaming/neta-release",
   "releases": [
     {
+      "file": "neta-l-control-v0.2.20.apk",
+      "githubAssetPath": "v0.2.20/neta-l-control-v0.2.20.apk",
+      "notes": [
+        "- 蓝牙代理扫描改由广播接收器承接，进程被系统清理后靠近车辆仍可唤醒",
+        "- 修复锁屏满 1 小时后唤醒被挂起吞掉，以及 Android 14+ 缺权限时启动前台服务崩溃的问题",
+        "- 修复蓝牙断链阻塞车控与广播泄漏、后台登录态未续期、加密存储并发及下载截断等稳定性问题",
+        "- 诊断日志补录进程历史退出原因与系统后台限制状态，便于排查杀后台"
+      ],
+      "releasedAt": "2026-11-25",
+      "sha256": "9594629fb9d17dbbfb1119f44fa3ec02d4be91bf8fe0f872a717e7e5ac18c9cf",
+      "sizeBytes": 4449167,
+      "versionCode": 41,
+      "versionName": "0.2.20"
+    },
+    {
       "file": "neta-l-control-v0.2.19.apk",
       "githubAssetPath": "v0.2.19/neta-l-control-v0.2.19.apk",
       "notes": [
